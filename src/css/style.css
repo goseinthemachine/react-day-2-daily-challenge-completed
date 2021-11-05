@@ -1,0 +1,35 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    border: 1px solid #ececec;
+    border-radius: 1px;
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.movie-poster {
+    width: 100px;
+}
+
+.movie-title{
+    margin: 5px 10px;
+    font-size: small;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.movie-type {
+    border: 1px solid #ff0000;
+    border-radius: 3px;
+    color: #ff0000;
+    background-color: #ffd0d0;
+    text-align: center;
+    margin: 5px 10px;
+    width: 50px;
+    font-size: smaller;
+}
+
