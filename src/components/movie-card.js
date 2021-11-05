@@ -1,4 +1,4 @@
-const MovieDetails = (props) => {
+const MovieCard = (props) => {
     const [initial, ...rest] = props.Type; 
     const alteredType = [initial.toUpperCase(), ...rest].join("");
 
@@ -11,4 +11,4 @@ const MovieDetails = (props) => {
     );
 }
 
-export default MovieDetails;
+export default MovieCard;
